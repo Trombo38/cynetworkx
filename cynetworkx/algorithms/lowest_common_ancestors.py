@@ -10,8 +10,8 @@
 #
 # Author:  Alex Roper <aroper@umich.edu>
 """Algorithms for finding the lowest common ancestor of trees and DAGs."""
-from collections import defaultdict, Set
-from collections.abc import Mapping
+from collections import defaultdict
+from collections.abc import Mapping, Set
 from itertools import chain, count
 
 import cynetworkx as nx
